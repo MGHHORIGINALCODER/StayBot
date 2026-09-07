@@ -1,0 +1,9 @@
+{
+  "name": "onlinekeeper-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "mineflayer": "latest",
+    "mineflayer-pathfinder": "latest",
+    "minecraft-data": "latest"
+  }
+}
