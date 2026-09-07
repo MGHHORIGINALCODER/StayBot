@@ -1,11 +1,10 @@
 {
-  "$schema": "https://railway.com",
-  "build": {
-    "builder": "NIXPACKS"
+  "$schema": "https://schema.railpack.com",
+  "packages": {
+    "python": "3.13",
+    "node": "22"
   },
   "deploy": {
-    "startCommand": "python3 OnlineKeeper.py",
-    "restartPolicyType": "ON_FAILURE",
-    "maxRestartCount": 10
+    "startCommand": "python3 OnlineKeeper.py"
   }
 }
