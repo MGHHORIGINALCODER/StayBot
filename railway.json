@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.com",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python OnlineKeeper.py",
+    "restartPolicyType": "ON_FAILURE",
+    "maxRestartCount": 10
+  }
+}
